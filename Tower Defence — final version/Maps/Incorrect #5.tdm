@@ -1,0 +1,8 @@
+name: Also disjoint;
+
+source S x=.1 y=.1;
+vertex V1 x=.2 y=.2;
+vertex V2 x=.3 y=.3;
+tower T x=.4 y=.4;
+
+S V1; V2 T;

@@ -1,0 +1,20 @@
+# tdl = tower defence layout
+
+name: Jungle;
+
+source S1 x = 0.05 y = 0.08;
+source S2 x = 0.17 y = 0.28;
+source S3 x = 0.5 y = 0.76;
+vertex V1 x = 0.2 y = 0.4;
+vertex V2 x = 0.2 y = 0.52;
+vertex V3 x = 0.4 y = 0.64;
+tower T1 x = 0.7 y = 0.9;
+tower T2 x = 0.9 y = 0.7;
+
+S1 V1;
+S2 V2;
+S3 V2;
+V1 V3;
+V2 V3;
+V3 T1;
+V3 T2;

@@ -1,0 +1,25 @@
+# Tomek
+name: Tomek;
+
+source S1    x = 0.1 y = 0.1;
+tower  T1    x = 0.9 y = 0.1;
+vertex main1 x = 0.1 y = 0.5;
+vertex main2 x = 0.2 y = 0.5;
+vertex main3 x = 0.5 y = 0.5;
+vertex top1  x = 0.1 y = 0.4;
+vertex bot1  x = 0.1 y = 0.6;
+vertex top2  x = 0.4 y = 0.4;
+vertex bot2  x = 0.4 y = 0.6;
+vertex main4 x = 0.9 y = 0.5;
+
+S1 main1;
+main1 main2;
+main2 main3;
+main2 top1;
+main2 bot1;
+top1 top2;
+bot1 bot2;
+top2 main3;
+bot2 main3;
+main3 main4;
+main4 T1;

@@ -1,0 +1,24 @@
+# Map name
+name: Example #01;
+
+# Coordinates of the points
+source S1 x = 0.4  y = 0.1;
+source S2 x = 0.1  y = 0.1;
+vertex J1 x = 0.2  y = 0.15;
+vertex P1 x = 0.25 y = 0.2;
+vertex P2 x = 0.4  y = 0.2;
+vertex J2 x = 0.3  y = 0.5;
+vertex P3 x = 0.6  y = 0.7;
+tower  T  x = 0.9  y = 0.9;
+# Markings are random.
+# I took: S for source, F for fork, J for junction, P for vertex and T for tower.
+
+# Connections
+S1 J1;
+S2 J1;
+J1 P1;
+J1 P2;
+P1 J2;
+P2 J2;
+J2 P3;
+P3 T;

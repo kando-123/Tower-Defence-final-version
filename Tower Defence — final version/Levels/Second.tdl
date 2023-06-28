@@ -1,0 +1,15 @@
+level: easy;
+
+basic 5; next;
+basic 10; next;
+basic 15; next;
+basic 20; next;
+angry 5; next;
+angry 10; next;
+angry 15; next;
+raged 5; next;
+ghost 5; next;
+ghost 10; next;
+skull 5; next;
+death 5; next;
+ghost 5; skull 5; death 5; end;

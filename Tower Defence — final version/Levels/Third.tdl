@@ -1,0 +1,5 @@
+level: hard;
+
+basic 1; angry 1; raged 1; next;
+skull 5; death 5; ghost 20; next;
+skull 10; death 10; ghost 40; end;

@@ -1,0 +1,25 @@
+name: Palm;
+
+# arm 1
+source S1 x=.1 y=.4;
+vertex V1 x=.2 y=.3;
+
+# arm 2
+source S2 x=.2 y=.1;
+vertex V2 x=.4 y=.2;
+
+# arm 3
+source S3 x=.8 y=.1;
+vertex V3 x=.6 y=.2;
+
+# arm 4
+source S4 x=.9 y=.4;
+vertex V4 x=.8 y=.3;
+
+# trunk
+vertex V x=.5 y=.4;
+tower  T x=.5 y=.9;
+
+S1 V1; S2 V2; S3 V3; S4 V4;
+V1 V; V2 V; V3 V; V4 V;
+V T;

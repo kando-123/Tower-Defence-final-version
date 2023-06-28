@@ -1,0 +1,3 @@
+level: example;
+
+ghost 10; raged 10; ghost 10; raged 10; end;

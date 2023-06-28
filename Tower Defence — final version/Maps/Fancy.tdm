@@ -1,0 +1,35 @@
+name: Fancy;
+
+source  S  x = .5 y = .1;
+tower   T  x = .5 y = .9;
+vertex  J1 x = .5 y = .3;
+vertex  J2 x = .5 y = .7;
+vertex OL1 x = .3 y = .2;
+vertex OL2 x = .1 y = .3;
+vertex OL3 x = .1 y = .7;
+vertex OL4 x = .3 y = .8;
+vertex OR1 x = .7 y = .2;
+vertex OR2 x = .9 y = .3;
+vertex OR3 x = .9 y = .7;
+vertex OR4 x = .7 y = .8;
+vertex IL1 x = .4 y = .4;
+vertex IL2 x = .3 y = .3;
+vertex IL3 x = .2 y = .4;
+vertex IL4 x = .2 y = .6;
+vertex IL5 x = .3 y = .7;
+vertex IL6 x = .4 y = .6;
+vertex IR1 x = .6 y = .4;
+vertex IR2 x = .7 y = .3;
+vertex IR3 x = .8 y = .4;
+vertex IR4 x = .8 y = .6;
+vertex IR5 x = .7 y = .7;
+vertex IR6 x = .6 y = .6;
+
+S J1;
+J1 OL1; J1 IL1; J1 IR1; J1 OR1;
+OL1 OL2; OL2 OL3; OL3 OL4; OL4 J2;
+OR1 OR2; OR2 OR3; OR3 OR4; OR4 J2;
+IL1 IL2; IL2 IL3; IL3 IL4; IL4 IL5; IL5 IL6; IL6 J2;
+IR1 IR2; IR2 IR3; IR3 IR4; IR4 IR5; IR5 IR6; IR6 J2;
+IL6 IL1; IR6 IR1;
+J2 T;

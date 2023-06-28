@@ -1,0 +1,37 @@
+name: Four ways inverted;
+
+# central part
+tower  X  x=.50 y=.50;
+vertex Y0 x=.50 y=.35;
+vertex Y1 x=.60 y=.40;
+vertex Y2 x=.65 y=.50;
+vertex Y3 x=.60 y=.60;
+vertex Y4 x=.50 y=.65;
+vertex Y5 x=.40 y=.60;
+vertex Y6 x=.35 y=.50;
+vertex Y7 x=.40 y=.40;
+
+# arms
+source A0 x=.9 y=.1;
+vertex A1 x=.8 y=.2;
+vertex A2 x=.8 y=.3;
+vertex A3 x=.7 y=.3;
+source B0 x=.9 y=.9;
+vertex B1 x=.8 y=.8;
+vertex B2 x=.7 y=.8;
+vertex B3 x=.7 y=.7;
+source C0 x=.1 y=.9;
+vertex C1 x=.2 y=.8;
+vertex C2 x=.3 y=.8;
+vertex C3 x=.3 y=.7;
+source D0 x=.1 y=.1;
+vertex D1 x=.2 y=.2;
+vertex D2 x=.3 y=.2;
+vertex D3 x=.3 y=.3;
+
+Y0 X; Y2 X; Y4 X; Y6 X;
+Y1 Y0; Y2 Y1; Y3 Y2; Y4 Y3; Y5 Y4; Y6 Y5; Y7 Y6; Y0 Y7;
+A3 Y1; A2 A3; A1 A2; A0 A1;
+B3 Y3; B2 B3; B1 B2; B0 B1;
+C3 Y5; C2 C3; C1 C2; C0 C1;
+D3 Y7; D2 D3; D1 D2; D0 D1;

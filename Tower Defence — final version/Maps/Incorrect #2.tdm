@@ -1,0 +1,8 @@
+name: jm
+
+;
+
+vertex V1 x=.1 y=.2;
+vertex V2 x=.3 y=.5;
+
+V1 V2;

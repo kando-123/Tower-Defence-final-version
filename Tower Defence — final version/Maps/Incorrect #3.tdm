@@ -1,0 +1,7 @@
+name: lonely source;
+
+source S1 x=.1 y=.1;
+source S2 x=.2 y=.1;
+tower  T1 x=.9 y=.9;
+
+S1 T1;

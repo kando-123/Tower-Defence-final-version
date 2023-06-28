@@ -1,0 +1,18 @@
+name: Snail;
+
+source S1 x=.9 y=.5;
+vertex V1 x=.7 y=.15;
+source S2 x=.3 y=.15;
+vertex V2 x=.1 y=.5;
+source S3 x=.3 y=.85;
+vertex V3 x=.7 y=.85;
+vertex v4 x=.65 y=.8;
+vertex v5 x=.8 y=.5;
+vertex v6 x=.65 y=.2;
+vertex v7 x=.35 y=.2;
+vertex v8 x=.2 y=.5;
+vertex v9 x=.35 y=.8;
+tower T x=.5 y=.5;
+
+S1 V1; V1 S2; S2 V2; V2 S3; S3 V3;
+V3 v4; v4 v5; v5 v6; v6 v7; v7 v8; v8 v9; v9 T;

@@ -1,0 +1,67 @@
+name: Four circles;
+
+## Points ##
+
+# Spawner part
+source	S1	x = .4	y = .3;
+source	S2	x = .5	y = .4;
+source	S3	x = .6	y = .3;
+vertex	S0	x = .5	y = .2;
+
+# Top left wing ("A")
+vertex	A1	x = .2	y = .1;
+vertex	A2	x = .1	y = .2;
+vertex	A3	x = .1	y = .3;
+vertex	A4	x = .3	y = .2;
+vertex	A5	x = .3	y = .3;
+vertex	A6	x = .2	y = .4;
+
+# Bottom left wing ("B")
+vertex	B1	x = .2	y = .6;
+vertex	B2	x = .1	y = .7;
+vertex	B3	x = .1	y = .8;
+vertex	B4	x = .3	y = .7;
+vertex	B5	x = .3	y = .8;
+vertex	B6	x = .2	y = .9;
+
+# Top right wing ("C")
+vertex	C1	x = .8	y = .1;
+vertex	C2	x = .7	y = .2;
+vertex	C3	x = .7	y = .3;
+vertex	C4	x = .9	y = .2;
+vertex	C5	x = .9	y = .3;
+vertex	C6	x = .8	y = .4;
+
+# Bottom right wing ("D")
+vertex	D1	x = .8	y = .6;
+vertex	D2	x = .7	y = .7;
+vertex	D3	x = .7	y = .8;
+vertex	D4	x = .9	y = .7;
+vertex	D5	x = .9	y = .8;
+vertex	D6	x = .8	y = .9;
+
+# Tower part
+tower	T1	x = .4	y = .7;
+tower	T2	x = .5	y = .6;
+tower	T3	x = .6	y = .7;
+vertex	T0	x = .5	y = .8;
+
+## Connections ##
+
+# Spawner part
+S1 S0; S2 S0; S3 S0; S0 A1; S0 C1;
+
+# Wing "A"
+A1 A2; A1 A4; A2 A3; A4 A5; A3 A6; A5 A6; A6 B1;
+
+# Wing "B"
+B1 B2; B1 B4; B2 B3; B4 B5; B3 B6; B5 B6; B6 T0;
+
+# Wing "C"
+C1 C2; C1 C4; C2 C3; C4 C5; C3 C6; C5 C6; C6 D1;
+
+# Wing "D"
+D1 D2; D1 D4; D2 D3; D4 D5; D3 D6; D5 D6; D6 T0;
+
+# Tower part
+T0 T1; T0 T2; T0 T3;

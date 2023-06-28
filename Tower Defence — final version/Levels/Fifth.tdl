@@ -1,0 +1,5 @@
+level: quick;
+
+basic 1; ghost 1; next;
+basic 1; ghost 1; next;
+basic 1; end;

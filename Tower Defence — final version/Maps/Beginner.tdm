@@ -1,0 +1,12 @@
+name: Beginner;
+
+source S x = 0.1 y = 0.1;
+vertex 1 x = 0.1 y = 0.9;
+vertex 2 x = 0.3 y = 0.9;
+vertex 3 x = 0.3 y = 0.3;
+vertex 4 x = 0.6 y = 0.3;
+vertex 5 x = 0.6 y = 0.8;
+vertex 6 x = 0.9 y = 0.8;
+tower T x = 0.9 y = 0.1;
+
+S 1; 1 2; 2 3; 3 4; 4 5; 5 6; 6 T;

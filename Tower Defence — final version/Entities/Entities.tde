@@ -1,0 +1,7 @@
+#label	speed	health	force	prize	width	height	scale	source file
+basic	1.9	2	1	3	500	500	0.1	"Entities\Texture #00.png";
+angry	2.4	6	3	5	500	500	0.1	"Entities\Texture #01.png";
+raged	2.6	8	5	7	500	500	0.1	"Entities\Texture #02.png";
+ghost	3.5	10	9	9	500	500	0.1	"Entities\Texture #03.png";
+skull	1.4	12	11	12	500	500	0.1	"Entities\Texture #04.png";
+death	1.2	15	8	20	500	500	0.1	"Entities\Texture #05.png";
